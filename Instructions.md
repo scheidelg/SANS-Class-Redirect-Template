@@ -112,13 +112,15 @@
 | A | @ | 185.199.110.153 | 1 week |
 | A | @ | 185.199.111.153 | 1 week |
 
-8. Test browsing to \<DN\>.scheidel.net to make sure it redirects to the correct OneNote notebook.
+8. Browse to \<DN\>.scheidel.net and confirm it redirects to the correct OneNote notebook.
 
 9. After successfully testing, change the TTL on GoDaddy to 1 week.
 
 10. Go back to the GitHub repository settings and enable 'Enforce HTTPS'.
 
     If the option is "not yet available for your site because the certificate has not finished being issued," then try again in a few hours.  GitHub says "please allow 24 hours"; it's usually much less than that.
+
+11. Browse to http:\/\/\<DN\>.scheidel.net and confirm it redirects to https:\/\/\<DN\>.scheidel.net and the correct OneNote notebook.
 
 **Setup Initial OneNote Notebook Pages**
 
