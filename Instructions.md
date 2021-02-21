@@ -66,19 +66,26 @@
      - Create a new GitHub repository with the assigned GitHub repository name
      - Click on **creating a new file** to open the GitHub file editor
      - Name the file 'index.html'
-     - Use an edited version of this content; replace the URL in the HTTP redirect and the HREF with the edit link for the OneNote notebook, and the event name with the correct event name:
+     - Use an edited version of this content:
+        - Replace the URL in the 'edit link' comment with the edit link for the OneNote notebook
+        - Replace the URL in the HTTP redirect with the edit link for the OneNote notebook
+        - Replace the URL in the HREF with the edit link for the OneNote notebook
+        - Replace the URL in the 'view link' comment with the view link for the OneNote notebook
+        - Replace the event name with the correct event name
 
            <!-- Redirect to the OneNote page for this class -->
            <!-- If the 'edit' has an expiration date, then remember to come back just ahead of the expiration date and update this file to use the 'view' link -->
+           <!-- Editing link: https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv -->
+           <!-- Viewing link: https://1drv.ms/o/s!AmX2EQD23qhmhys5lJ-iwh-WXBU- -->
            <!DOCTYPE html>
            <html>
              <head>
                <!-- edit this HTML to use the correct link -->
-               <meta http-equiv="Refresh" content="0; url=https://1drv.ms/u/s!AmX2EQD23qhmhiXBpPAESwlyJtrr?e=aIeDSa" />
+               <meta http-equiv="Refresh" content="0; url=https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv" />
              </head>
              <body>
                <!-- edit this HTML to use the correct link and event name-->
-               <p>Click to access <a href="https://1drv.ms/u/s!AmX2EQD23qhmhiXBpPAESwlyJtrr?e=aIeDSa">the OneNote page</a> for SEC530 at SANS Cyber Architecture 2020, AE.</p>
+               <p>Click to access <a href="https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv">the OneNote page</a> for SEC530 at SANS South by Southeast Asia 2021.</p>
              </body>
            </html>
 
