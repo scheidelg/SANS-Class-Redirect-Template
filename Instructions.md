@@ -79,7 +79,7 @@
              </head>
              <body>
                <!-- edit this HTML to use the correct link, class name, and event name -->
-               <p>Click to access <a href="https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv">the OneNote page</a> for SEC530 at SANS South by Southeast Asia 2021.</p>
+               <p>Redirecting to <a href="https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv">the OneNote page</a> for SEC530 at SANS South by Southeast Asia 2021.</p>
              </body>
            </html>
 
