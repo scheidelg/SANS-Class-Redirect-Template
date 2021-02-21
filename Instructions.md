@@ -78,16 +78,17 @@
                <meta http-equiv="Refresh" content="0; url=https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv" />
              </head>
              <body>
-               <!-- edit this HTML to use the correct link and event name-->
+               <!-- edit this HTML to use the correct link, class name, and event name -->
                <p>Click to access <a href="https://1drv.ms/o/s!AmX2EQD23qhmhyvAK-oicNNrOyFv">the OneNote page</a> for SEC530 at SANS South by Southeast Asia 2021.</p>
              </body>
            </html>
 
-     - Use an edited version of this content:
+     - Edit the content:
         - Replace the URL in the 'edit link' comment with the edit link for the OneNote notebook
         - Replace the URL in the HTTP redirect with the edit link for the OneNote notebook
         - Replace the URL in the HREF with the edit link for the OneNote notebook
         - Replace the URL in the 'view link' comment with the view link for the OneNote notebook
+        - Replace the class name with the correct class name
         - Replace the event name with the correct event name
 
      - Click on **Commit new file**
@@ -98,7 +99,7 @@
      - Scroll down to the **GitHub Pages** section
      - Change the GitHub Pages **Source** setting to the main branch; click **Save**
      - Change the GitHub Pages **Custom domain** setting to the assigned FQDN; click **Save**
-     - Return to the repository file listing and make sure that a CNAME file was created
+     - Return to the repository file listing and make sure that a CNAME file was created (yes, we could just manually create the CNAME file instead of using the **Custom domain** text box; same end result)
 
 7. Login to GoDaddy and create a CNAME record that redirects to the GitHub repository's GitHub Pages web page.
  
