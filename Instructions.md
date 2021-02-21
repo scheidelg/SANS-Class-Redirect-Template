@@ -4,23 +4,23 @@
 
     - a name for the class OneNote notebook that is fairly simple and easy to remember
     - a corresponding FQDN as a subdomain of scheidel.net
-    - a corresponding GitHub project name
+    - a corresponding GitHub repository name
 
    We're looking for a OneNote notebook name that's easy for students to remember and closely associated with the event, with a matching FQDN that is easy to remember, short, and easy to type.
 
-   The GitHub project name should be similar to the FQDN but this isn't too important since students won't generally see it.
+   The GitHub repository name should be similar to the FQDN but this isn't too important since students won't generally see it.
 
    For example, for SEC530 at the SANS Cyber Architecture in the United Arab Emirates (AE) I picked:
 
     - a OneNote notebook name of `SEC530 - CA 2020 AE`
     - an FQDN of `ca2020ae.scheidel.net`
-    - a GitHub project name of `SEC530-CA-2020-AE`
+    - a GitHub repository name of `SEC530-CA-2020-AE`
 
 2. Create a OneNote notebook with the assigned name.
 
     - Open OneDrive
-    - Browse to the folder containing class OneNote projects
-    - Copy the template to a new project
+    - Browse to the folder containing class OneNote notebooks
+    - Copy the template to a new notbook
 
 3. Enable sharing for editing, and get the sharable URL.
 
@@ -34,7 +34,7 @@
     - Click on **Anyone with the link can edit** to activate the *Link settings* dialog
     - Set an expiration date (a few weeks after the class) and click **Apply** to return to the *Send link* dialog
     
-      **If you set an expiration date, then you'll need to also create a 'view' link and -  ahead of the edit link's expiration date - update this project's `index.html` file to redirect to the view link.** Otherwise somebody browsing to the \<DN\>.scheidel.net URL will be denied access.
+      **If you set an expiration date, then you'll need to also create a 'view' link and -  ahead of the edit link's expiration date - update this repository's `index.html` file to redirect to the view link.** Otherwise somebody browsing to the \<DN\>.scheidel.net URL will be denied access.
     - Click on **Copy link** to get a shareable link; copy to clipboard; save in a scratchpad so you don't lose it
     - Close the dialog
     - Close the *Manage Access* pane
@@ -60,10 +60,10 @@
        - "Anyone with this link can fiew this item"
        - No expiration date
 
-5. Create a new GitHub project with an index.html file.
+5. Create a new GitHub repository with an index.html file.
 
      - Open GitHub
-     - Create a new GitHub project with the assigned GitHub project name
+     - Create a new GitHub repository with the assigned GitHub repository name
      - Click on **creating a new file** to open the GitHub file editor
      - Name the file 'index.html'
      - Use an edited version of this content; replace the URL in the HTTP redirect and the HREF with the edit link for the OneNote notebook, and the event name with the correct event name:
@@ -92,7 +92,7 @@
      - Change the GitHub Pages **Custom domain** setting to the assigned FQDN; click **Save**
      - Return to the repository file listing and make sure that a CNAME file was created
 
-7. Login to GoDaddy and create a CNAME record that redirects to the GitHub project's GitHub Pages web page.
+7. Login to GoDaddy and create a CNAME record that redirects to the GitHub repository's GitHub Pages web page.
  
      - **Manage My Products**
      - Under the list of domains, find `scheidel.net`
