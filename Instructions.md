@@ -76,7 +76,7 @@
 5. Create a new GitHub repository with an index.html file.
 
      - Open GitHub
-     - Create a new GitHub repository with theGitHub repository name you assigned for this class
+     - Create a new public GitHub repository with the GitHub repository name you assigned for this class
      - Click on **creating a new file** to open the GitHub file editor
      - Name the file 'index.html' and paste in content:
 
@@ -142,7 +142,7 @@
 
 10. Go back to the GitHub repository settings and enable 'Enforce HTTPS'.
 
-    If the option is "not yet available for your site because the certificate has not finished being issued," then try again in a few hours.  GitHub says "please allow 24 hours"; it's usually much less than that.
+    If the option is "unavailable for your site because a certificate has not yet been issued for your domain," then try again in a few hours.  GitHub says "please allow 24 hours"; it's usually much less than that.
 
 11. Browse to http:\/\/\<DN\>.scheidel.net and confirm it redirects to https:\/\/\<DN\>.scheidel.net and the correct OneNote notebook.
 
