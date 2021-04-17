@@ -25,7 +25,7 @@
 
 3. Enable sharing for editing, and get the sharable URL.
 
-   Note: For the time being we're trying to avoid using a shared editing password. We might have to staring using passwords if there are ever problems with people maliciously mucking with the notebook.
+   **Note**: For the time being we're trying to avoid using a shared editing password. We might have to staring using passwords if there are ever problems with people maliciously mucking with the notebook.
 
     - Browse to the notebook via OneDrive
     - Right-click on the notebook and select **Details** from the context menu to activate the details pane
@@ -34,14 +34,20 @@
     - Click on **Anyone with the link can edit** to activate the *Link settings* dialog
     - Set an expiration date (a few weeks after the class) and click **Apply** to return to the *Send link* dialog
     
-      **If you set an expiration date, then you'll need to also create a 'view' link and -  ahead of the edit link's expiration date - update this repository's `index.html` file to redirect to the view link.** Otherwise somebody browsing to the \<DN\>.scheidel.net URL will be denied access.
-    - Click on **Copy link** to get a shareable link; copy to clipboard; save in a scratchpad so you don't lose it
+      **Note**: If you set an expiration date, then you'll need to also create a 'view' link and -  ahead of the edit link's expiration date - update this repository's `index.html` file to redirect to the view link. Otherwise a user browsing to the \<DN\>.scheidel.net URL will be denied access.
+    - Click on **Copy link** to get a shareable link
+
+      **Note**: If the link ends with a '?=text' then you can ignore that text
+
+       - Copy to the clipboard
+       - Save in a scratchpad so you don't lose it
     - Close the dialog
     - In the details pane, under *Has access*, click on **Manage access** to activate the *Manage access* pane
     - Confirm that the new sharing link has been created
        - "Anyone with this link can edit this item"
        - Correct expiration date; if incorrect (which sometimes happens with this interface - not your fault), then update and save, and come back in again to double-check; wash-rinse-repeat until the correct date is set
     - Close the *Details* pane
+    - In another browser window, test the newly created link
 
 4. Enable sharing for viewing, and get the sharable URL.
 
@@ -53,13 +59,19 @@
     - Click on **Anyone with the link can edit** to activate the *Link settings* dialog
     - Uncheck the **Allow editing** checkbox and click **Apply** to return to the *Send link* dialog
     - On the *Send link* dialog, you should see "Anyone with the link can view"
-    - Click on **Copy link** to get a shareable link; copy to clipboard; save in a scratchpad so you don't lose it
+    - Click on **Copy link** to get a shareable link
+
+      **Note**: If the link ends with a '?=text' then you can ignore that text
+
+       - Copy to the clipboard
+       - Save in a scratchpad so you don't lose it
     - Close the dialog
     - In the details pane, under *Has access*, click on **Manage access** to activate the *Manage access* pane
     - Confirm that the new sharing link has been created
        - "Anyone with this link can fiew this item"
        - No expiration date
     - Close the *Details* pane
+    - In another browser window, test the newly created link
 
 5. Create a new GitHub repository with an index.html file.
 
