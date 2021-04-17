@@ -31,7 +31,7 @@
     - Right-click on the notebook and select **Details** from the context menu to activate the details pane
     - In the details pane, under *Has access* you should see "This item is not shared"
     - In the details pane, under *Has access*, click on **Manage access** to activate the *Manage Access* pane
-    - In the *Manage Access* pane, in the top-left corner, click on **Share** to activate the *Send link* dialog
+    - In the *Manage Access* pane, in the top-left corner, click on **Grant Access** to activate the *Share* dialog
     - Click on **Anyone with the link can edit** to activate the *Link settings* dialog
     - Set an expiration date (a few weeks after the class) and click **Apply** to return to the *Send link* dialog
     
@@ -49,7 +49,7 @@
     - Browse to the notebook via OneDrive
     - Right-click on the notebook and select **Details** from the context menu to activate the details pane
     - In the details pane, under *Has access*, click on **Manage access** to activate the *Manage Access* pane
-    - In the *Manage Access* pane, in the top-left corner, click on **Share** to activate the *Send link* dialog
+    - In the *Manage Access* pane, in the top-left corner, click on **Grant Access** to activate the *Share* dialog
     - Click on **Anyone with the link can edit** to activate the *Link settings* dialog
     - Uncheck the **Allow editing** checkbox and click **Apply** to return to the *Send link* dialog
     - On the *Send link* dialog, you should see"Anyone with the link can view"
