@@ -21,6 +21,7 @@
     - Open OneDrive
     - Browse to the folder containing class OneNote notebooks
     - Copy the template to a new notbook
+    - Rename the new notebook to the name you assigned for this class 
 
 3. Enable sharing for editing, and get the sharable URL.
 
@@ -63,7 +64,7 @@
 5. Create a new GitHub repository with an index.html file.
 
      - Open GitHub
-     - Create a new GitHub repository with the assigned GitHub repository name
+     - Create a new GitHub repository with theGitHub repository name you assigned for this class
      - Click on **creating a new file** to open the GitHub file editor
      - Name the file 'index.html' and paste in content:
 
@@ -98,7 +99,7 @@
      - Click on **Settings**
      - Scroll down to the **GitHub Pages** section
      - Change the GitHub Pages **Source** setting to the main branch; click **Save**
-     - Change the GitHub Pages **Custom domain** setting to the assigned FQDN; click **Save**
+     - Change the GitHub Pages **Custom domain** setting to the FQDN you assigned for this class; click **Save**
      - Return to the repository file listing and make sure that a CNAME file was created (yes, we could just manually create the CNAME file instead of using the **Custom domain** text box; same end result)
 
 7. Login to GoDaddy and create a CNAME record that redirects to the GitHub repository's GitHub Pages web page.
