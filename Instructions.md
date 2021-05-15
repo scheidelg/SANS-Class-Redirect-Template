@@ -106,15 +106,7 @@
 
      - Click on **Commit new file**
 
-6. Enable GitHub Pages
-
-     - Click on **Settings**
-     - Scroll down to the **GitHub Pages** section
-     - Change the GitHub Pages **Source** setting to the main branch; click **Save**
-     - Change the GitHub Pages **Custom domain** setting to the FQDN you assigned for this class; click **Save**
-     - Return to the repository file listing and make sure that a CNAME file was created (yes, we could just manually create the CNAME file instead of using the **Custom domain** text box; same end result)
-
-7. Login to GoDaddy and create a CNAME record that redirects to the GitHub repository's GitHub Pages web page.
+6. Login to GoDaddy and create a CNAME record that redirects to the GitHub repository's GitHub Pages web page.
  
      - **Manage My Products**
      - Under the list of domains, find `scheidel.net`
@@ -133,6 +125,14 @@
 | A | @ | 185.199.109.153 | 1 week |
 | A | @ | 185.199.110.153 | 1 week |
 | A | @ | 185.199.111.153 | 1 week |
+
+7. Enable GitHub Pages
+
+     - Click on **Settings**
+     - Scroll down to the **GitHub Pages** section
+     - Change the GitHub Pages **Source** setting to the main branch; click **Save**
+     - Change the GitHub Pages **Custom domain** setting to the FQDN you assigned for this class; click **Save**
+     - Return to the repository file listing and make sure that a CNAME file was created (yes, we could just manually create the CNAME file instead of using the **Custom domain** text box; same end result)
 
 8. Browse to \<DN\>.scheidel.net and confirm it redirects to the correct OneNote notebook.
 
